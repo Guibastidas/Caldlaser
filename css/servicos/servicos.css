@@ -26,7 +26,7 @@ body {
 
 .servico-montagem {
     display: flex;
-    width: 1200px;
+    width: 1250px;
     gap: 80px;
     justify-content: center;
     align-items: center;
@@ -34,10 +34,9 @@ body {
 }
 
 .servico-montagem img {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     border-radius: 8px;
-    box-shadow: 1px 1px 5px 2px #777777;
 }
 
 .montagem_processos {
@@ -181,11 +180,18 @@ body {
 
 .historia-servicos ul {
     display: grid;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 0 0 35px;
 }
 
 .historia-servicos li {
+    padding: 5px;
+    margin: 6px;
+    border-radius: 8px;
+    border: 2px solid var(--cor-0);
+    font-weight: bold;
     color: black;
 }
 
@@ -215,8 +221,9 @@ body {
 .fabril-laser {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--cor-5);
+    background-color: #0141800a;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .fabril-container {
@@ -232,7 +239,6 @@ body {
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cor-5);
 }
 
 .fabril-container h2 {
@@ -240,6 +246,7 @@ body {
 }
 
 .fabril-infos h3 {
+    font-size: 1rem;
     margin-bottom: 15px;
 }
 

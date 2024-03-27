@@ -6,28 +6,27 @@
 }
 
 .conteudo h2 {
-    color: var(--cor-2);
+    color: var(--cor-0);
+    margin-bottom: 20px;
 }
 
 .conteudo p, li {
-    color: var(--cor-1);
+    color: var(--cor-0);
 }
 
 .politica {
-    width: 1050px;
+    width: 800px;
     margin: auto;
 }
 
 .icon_politica {
-    display: grid;
     width: 320px;
-    margin-left: 200px;
+    margin-left: 100px;
     border-radius: 15px;
-    box-shadow: 1px 1px 20px 4px #00000069;
 }
 
 .conteudo h1 {
-    padding: 20px;
+    padding: 10px;
     color: var(--cor-0);
     font-size: 2rem;
 }
@@ -35,33 +34,31 @@
 .caixa_missao {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-self: center;
-    justify-self: center;
-    background-color: var(--cor-0);
+    border: 2px solid var(--cor-0);
     border-radius: 10px;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 100px;
     animation: fadeIn 1s ease-out;
-    box-shadow: 2px 2px 10px 10px var(--cor-0);
 }
 
-.missao_info {
-    display: grid;
-    justify-self: center;
+.caixa_missao::after {
+    content: "";
+    width: 50px;
+    height: 10px;
+    background-color: blue;
 }
+
 
 .caixa_visao {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-self: center;
-    justify-self: center;
-    background-color: var(--cor-0);
+    border: 2px solid var(--cor-0);
     border-radius: 10px;
     padding: 20px;
+    margin-top: 20px;
     margin-bottom: 100px;
     animation: fadeIn 1s ease-out;
-    box-shadow: 2px 2px 10px 10px var(--cor-0);
 }
 
 .visao_info {
@@ -73,12 +70,11 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    background-color: var(--cor-0);
+    border: 2px solid var(--cor-0);
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 100px;
     animation: fadeIn 1s ease-out;
-    box-shadow: 2px 2px 10px 10px var(--cor-0);
 }
 
 .valores_info {

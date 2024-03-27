@@ -85,11 +85,12 @@
 }
 
 .titulo {
-  padding: 15px 0;
+  padding: 15px 15px;
   background: var(--cor-1);
 }
 
 .titulo p {
+  font-size: 1rem;
   margin-bottom: 4px;
 }
 

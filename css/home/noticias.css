@@ -1,18 +1,15 @@
-.noticias {
-    margin-bottom: 50px;
-}
 
 .noticias h1 {
     font-size: 2rem;
     text-align: center;
     color: var(--cor-0);
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     position: relative;
 }
 
 .noticias_conteudo img {
-    width: 250px;
+    width: 350px;
     margin: 15px;
     border-radius: 8px;
 }
@@ -36,7 +33,6 @@
 
 .noticias_conteudo {
     width: 800px;
-    background-color: var(--cor-5);
     margin: 30px;
     border-radius: 8px;
     padding: 20px;

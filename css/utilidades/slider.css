@@ -23,16 +23,16 @@
       height: 100%;
       object-fit: cover;
     }
-
+    
     .swiper-pagination {
       width: 20px;
       height: 12px;
       text-align: center;
       line-height: 20px;
       font-size: 12px;
-      color: var(--cor-2);
+      color: #fff;
       border-radius: 8px;
-      opacity: 0.7;
-      background: var(--cor-1);
+      border: 2px solid var(--cor-5);
+      background-color: #ffffff65;
     }
 

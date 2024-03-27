@@ -48,6 +48,20 @@
   grid-template-columns: 1fr 2fr;
 }
 
+.footer-informacoes a {
+  position: relative;
+}
+
+.footer-informacoes a::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: var(--cor-1);
+  position: absolute;
+  margin-top: 5px;
+}
+
 .footer a:hover {
   color: var(--cor-2);
 }

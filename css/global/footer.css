@@ -26,6 +26,8 @@
 }
 
 .footer-redes {
+  margin-top: -40px;
+  margin-left: 210px;
   display: flex;
   gap: 10px;
 }
@@ -52,14 +54,15 @@
   position: relative;
 }
 
-.footer-informacoes a::after {
+.footer-linha::before {
   content: "";
   display: block;
-  width: 60px;
-  height: 2px;
+  width: 2px;
+  height: 80px;
   background-color: var(--cor-1);
   position: absolute;
-  margin-top: 5px;
+  left: 100px;
+  opacity: 0.2;
 }
 
 .footer a:hover {
@@ -74,8 +77,11 @@
 
 .footer-adress {
   display: grid;
+  margin-top: 30px;
   grid-template-columns: 4fr 7fr;
 }
+
+
 
 @media (max-width: 800px) {
   .footer-imagem > img {

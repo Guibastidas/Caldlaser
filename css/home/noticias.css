@@ -3,13 +3,13 @@
     font-size: 2rem;
     text-align: center;
     color: var(--cor-0);
-    padding-top: 20px;
-    margin-bottom: 15px;
+    padding-top: 5px;
+    margin-bottom: 5px;
     position: relative;
 }
 
 .noticias_conteudo img {
-    width: 350px;
+    width: 300px;
     margin: 15px;
     border-radius: 8px;
 }
@@ -20,6 +20,8 @@
 }
 
 .noticias_conteudo p {
+    width: 250px;
+    text-align: start;
     font-size: 0.8rem;
     margin-bottom: 15px;
 }
@@ -32,10 +34,18 @@
 }
 
 .noticias_conteudo {
+    display: flex;
     width: 800px;
     margin: 30px;
     border-radius: 8px;
-    padding: 20px;
+    padding: 15px;
+    border: 3px solid var(--cor-0);
+}
+
+.noticias_conteudo_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .conteudo_btn {

@@ -196,6 +196,7 @@ body {
 }
 
 .historia-servicos i {
+    padding: 5px;
     margin-right: 10px;
     color: var(--cor-0);
 }

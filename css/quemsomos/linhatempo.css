@@ -158,7 +158,7 @@
     height: 80px;
     width: 80px;
     left: 260px;
-    top: 5px;
+    bottom: -11px;
 }
 
 .timeline ul li .icon-4 h3::before {
@@ -221,9 +221,9 @@
     background-image: url(../../icones/2018.svg);
     background-size: cover;
     position: absolute;
-    height: 100px;
-    width: 100px;
-    left: 248px;
+    height: 95px;
+    width: 95px;
+    left: 240px;
     top: 5px;
 }
 
@@ -236,7 +236,7 @@
     height: 80px;
     width: 80px;
     left: 260px;
-    top: 5px;
+    top: 2px;
 }
 
 .timeline ul li .icon-11 h3::before {
